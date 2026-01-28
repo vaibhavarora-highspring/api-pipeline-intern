@@ -39,6 +39,21 @@ The project is designed to simulate **real-world data engineering workflows** in
 ---
 
 ## 🔄 Pipeline Flow
+API
+↓
+Extract data (Python)
+↓
+Transform & clean nested JSON
+↓
+Validate data quality
+↓
+Save clean CSV
+↓
+Insert into SQLite database
+↓
+Run SQL business insights
+
+
 
 ## output/insights --
 📊 BUSINESS INSIGHTS
